@@ -11,3 +11,9 @@
 #### 开源项目
 + [libcoap](https://github.com/obgm/libcoap) OpenHarmony使用的Coap库。
 + [《libcoap 接口分析与 CoAP 协议开发》](https://blog.csdn.net/song_lee/article/details/105653196)
+
+
+#### 测试工具
+```shell
+npm install coap-cli -g
+```
