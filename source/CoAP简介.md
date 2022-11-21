@@ -1,27 +1,5 @@
-<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
- 
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
- 
-<script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript">
- $(document).ready(function(){
-      $("h2,h3,h4,h5,h6").each(function(i,item){
-        var tag = $(item).get(0).localName;
-        $(item).attr("id","wow"+i);
-        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
-        $(".newh2").css("margin-left",0);
-        $(".newh3").css("margin-left",20);
-        $(".newh4").css("margin-left",40);
-        $(".newh5").css("margin-left",60);
-        $(".newh6").css("margin-left",80);
-      });
- });
-</script>
-<div id="category"></div>
-
-#受限应用协议（CoAP）
-##1, 简介
+# 受限应用协议（CoAP）
+## 1, 简介
 在互联网上，使用web服务（web API）已经非常普遍，大多应用都在使用基于web的REST架构。
 
 Constrained RESTful Environments（CoRE）的工作目标是采用恰当的方式在受限节点（如8位微控制器、较小RAM和ROM）和受限网络（例如6LoWPAN，[[RFC4944]](http://tools.ietf.org/pdf/rfc4944)）上实现REST架构。6LoWPAN等受限网络支持把IPv6数据包分片成为小的链路层数据帧。然而，这导致数据发送成功率的下降。CoAP协议的设计目标之一是使数据包开销尽可能小，以减少分片的发生。
