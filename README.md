@@ -7,6 +7,17 @@
 + [《受限节点网络的术语》](./source/RFC7228%20-%E3%80%8A%E5%8F%97%E9%99%90%E8%8A%82%E7%82%B9%E7%BD%91%E7%BB%9C%E7%9A%84%E6%9C%AF%E8%AF%AD%E3%80%8B%E4%B8%AD%E6%96%87%E7%89%88.md)
 + [《所限应用协议》](./source/RFC7252-%E3%80%8A%E5%8F%97%E9%99%90%E5%BA%94%E7%94%A8%E5%8D%8F%E8%AE%AE%E3%80%8B%E4%B8%AD%E6%96%87%E7%89%88.md)
 
+#### 协议和数据包
++ [分布式通信COAP协议](https://blog.csdn.net/xgw1010/article/details/109374930)
+  + 注：wireshark可能将Coap识别为DTLS，处理方式为：
+    ```text
+    选择包右键：
+        ——> Protocol Preferences
+            ——> Frame
+                ——> Open Frame Preferences 
+            选择CoAP将端口改为5684即可
+    ```
+
 
 #### 开源项目
 + [libcoap](https://github.com/obgm/libcoap) OpenHarmony使用的Coap库。
@@ -17,3 +28,5 @@
 ```shell
 npm install coap-cli -g
 ```
+
+
