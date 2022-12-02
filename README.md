@@ -1,4 +1,4 @@
-# Coap快速入门
+# CoAP快速入门
 
 #### 入门资料
 + [《CoAP简介》](./source/CoAP%E7%AE%80%E4%BB%8B.md)
@@ -9,7 +9,7 @@
 
 #### 协议和数据包
 + [分布式通信COAP协议](https://blog.csdn.net/xgw1010/article/details/109374930)
-  + 注：wireshark可能将Coap识别为DTLS，处理方式为：
+  + 注：wireshark可能将CoAP识别为DTLS，处理方式为：
     ```text
     选择包右键：
         ——> Protocol Preferences
@@ -20,7 +20,7 @@
 
 
 #### 开源项目
-+ [libcoap](https://github.com/obgm/libcoap) OpenHarmony使用的Coap库。
++ [libcoap](https://github.com/obgm/libcoap) OpenHarmony使用的CoAP库。
 + [《libcoap 接口分析与 CoAP 协议开发》](https://blog.csdn.net/song_lee/article/details/105653196)
 
 
@@ -29,4 +29,7 @@
 npm install coap-cli -g
 ```
 
+
+#### 参考资料
++ 《IoT开发实战: Coap卷》
 
