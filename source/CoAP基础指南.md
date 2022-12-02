@@ -1,24 +1,3 @@
-<link rel="stylesheet" href="http://yandex.st/highlightjs/6.2/styles/googlecode.min.css">
- 
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://yandex.st/highlightjs/6.2/highlight.min.js"></script>
- 
-<script>hljs.initHighlightingOnLoad();</script>
-<script type="text/javascript">
- $(document).ready(function(){
-      $("h2,h3,h4,h5,h6").each(function(i,item){
-        var tag = $(item).get(0).localName;
-        $(item).attr("id","wow"+i);
-        $("#category").append('<a class="new'+tag+'" href="#wow'+i+'">'+$(this).text()+'</a></br>');
-        $(".newh2").css("margin-left",0);
-        $(".newh3").css("margin-left",20);
-        $(".newh4").css("margin-left",40);
-        $(".newh5").css("margin-left",60);
-        $(".newh6").css("margin-left",80);
-      });
- });
-</script>
-<div id="category"></div>
 ##2, 受限应用协议CoAP
 CoAP协议的交互模型与HTTP的客户端/服务端模型类似。然而，在M2M的交互场景中，一个使用CoAP协议的设备通常既是客户端又是服务端。CoAP中的请求与HTTP协议中的请求相同，是由客户端发起的，请求一个位于服务端的资源（用URI标识），执行一个动作（用Method Code标识）。然后服务端发回一个响应，带有一个响应代码（Response Code），这个响应中有可能也包含一个资源的表现（附带响应格式）。
 
