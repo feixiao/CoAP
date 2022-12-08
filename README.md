@@ -29,6 +29,11 @@
 npm install coap-cli -g
 ```
 
+#### 安装libcoap自带工具
+```shell
+ibrew install libcoap
+```
+
 
 #### 参考资料
 + 《IoT开发实战: Coap卷》
