@@ -34,6 +34,7 @@ npm install coap-cli -g
 ibrew install libcoap
 ```
 
++ [libcoap example](https://github.com/feixiao/libcoap-minimal)
 
 #### 参考资料
 + 《IoT开发实战: Coap卷》
